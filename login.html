@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Css link -->
+    <link href="assets/css/bootstrap.min.css" rel ="stylesheet">
+    <link href="css/band.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <title>LogIn</title>
+    <style>
+       * {
+    box-sizing: border-box;
+  }
+  
+  .slick-slide{margin: 0px 20px;}
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .margincl{
+    margin-left:572px;
+    margin-top: 110px;
+    background-color: #dbdbdb !important;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 10px #96989a;
+    border-radius: 25px;
+    }
+    </style>
+</head>
+<body>
+  <!-- Nav bar -->
+  <header class="Myheader" style="position: fixed; margin-top: -13px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5 text-uppercase" href="#">manal <span class="text-primary">softech</soan></a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-newspaper-o" style="font-size: 21px; display: flex; margin-right: -49px;"></i><p style="margin-left: -25px;
+                font-size: 16px;">Brand News</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary px-5" href="sign-up.html" style="margin-left: 24px;background-color: rgb(0, 140, 255); color: rgb(255, 255, 255); margin-top: 11px;">Sign up/Login</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary" href="AboutUs.html" style="margin-left: 31px; margin-top: 11px;">About Us</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <!-- Form -->
+  <section style="padding-bottom: 83px;">
+    <div class="col-md-3 col-lg-3 col-xl-3 col-3 d-flex align-items-center bg-dark margincl">
+        <div class="w-100 py-4 px-md-5 px-xxl-6 ">
+          <div class="mb-3">
+            <img class="img-fluid mb-3" src="images/welcome.png" alt="..." style="max-width:11rem; margin-left: 59px;">
+            <!-- <h2 class="First">User!</h2> -->
+            <br>
+          </div>
+          <form class="form-validate">
+            <div class="mb-4 mt-5">
+              <label class="form-label" for="loginUsername"> Email Address</label>
+              <input class="form-control" name="loginUsername" id="loginUsername" type="email" placeholder="name@address.com" autocomplete="off" required data-msg="Please enter your email">
+            </div>
+            <div class="mb-4">
+              <label class="form-label text-shadow">Password</label>
+              <a href="#" style="float: right;">Forgot Password?</a>
+              <input class="form-control" type="password" placeholder="Password" required data-msg="Please Enter Password">
+          </div>
+          <div class="mb-4">
+              <div class="form-check">
+              <input class="form-check-input" id="loginRemember" type="checkbox">
+              <label class="form-check-label text-muted" for="loginRemember"> <span class="text-sm">Remember Me For 30 days</span></label>
+              </div>
+          </div>
+            <!-- Submit-->
+            <div class="d-grid">
+              <button class="btn btn-lg btn-primary">LogIn</button>
+            </div>
+            <hr class="my-3 hr-text letter-spacing-2" data-content="OR">
+            <div class="d-grid gap-2">
+              <button class="btn btn btn-outline-primary btn-social"><i class="fa fa-facebook"></i>Connect <span class="d-none d-sm-inline">with Facebook</span></button>
+              <button class="btn btn btn-outline-primary btn-social"><i class="fa fa-google"> </i>Connect <span class="d-none d-sm-inline">with Google</span></button>
+            </div>
+            <hr class="my-4">
+                <p class="text-center"><small class="text-muted text-center">Don't have an account yet?<br><a href="sign-up.html">SignUp</a></small></p>
+          </form>
+        </div>
+      </div>
+    </section>
+    </div>
+        <!-- <div class="col-md-4 col-lg-4 col-xl-4 col-4 d-flex align-items-center margincl"> 
+          <img src="images/loginpage.png" alt="" height="770rem" style="margin-left:625px; margin-top: -862px;"> 
+      </div> -->
+    <!-- Footer -->
+  <footer class="bd-footer py-3 mt-3 bg-light">
+    <!-- col-1 -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+          <h5 class="styleh5">Categories</h5>
+          <div class="footmenu">
+          <ul class="list-unstyled">
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Election Special</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Tending</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Bipin Rawat</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Canva Special</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Good Thoughts (suvichar)</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+          <!-- col-2 -->
+          <h5 class="styleh5">Festivals</h5>
+          <div class="footmenu">
+          <ul class="list-unstyled">
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Vijay Diwas</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Rohini Vrat</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">National Minorities Rights Day</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">International Migrants Day</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Guru Ghasidas Jayanti</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Dattatreya Jayanti</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+          <!-- Col-3 -->
+          <h5 class="styleh5">Custom Template</h5>
+          <div class="footmenu">
+          <ul class="list-unstyled">
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Christmas Special</a></li>
+            <p><i class="arrow"></i></p><li class="mb-2"><a href="#">Payment Thanks</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+          <h5 class="styleh5">Downloads</h5>
+          <div class="footmenu">
+          <!-- col-4 -->
+          <div class="row">
+            <div class="column">
+              <img src="images/apple.png" alt="..." style="width:180px;">
+            </div>
+            <div class="column">
+              <img src="images/google.jpg" alt="..." style="width:180px; margin: -4px 0px 0px 84px;">
+            </div>
+          </div>
+          <button class="button button2">Blog</button>
+          <br>
+          <p><b>Follow Us..</b></p>
+          <div class="icons">
+            <i class="fa fa-facebook circle"style="font-size: x-large;"></i>
+            <i class="fa fa-twitter circle" style="font-size: x-large;"></i>
+            <i class="fa fa-instagram circle" style="font-size: x-large;"></i>
+            <i class="fa fa-youtube circle" style="font-size: x-large;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!-- Final Footer -->
+  <footer class="mainfooter">
+    <div class="container">
+      <div class="row" style="padding-top: 25px;">
+        <div class="col">
+          <p style="text-align: left;">Copyright © Manal Softech All Right Reserved</p>
+        </div>
+        <div class="col">
+          <p style="text-align: right;">Terms | Privacy Policy | Faqs| Refer & Earn</p>
+        </div>
+      </div>
+  </footer>
+  <!-- Js bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/slick/slick.js"></script>
+<script src="assets/js/band.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+       
+</body>
+</html>
